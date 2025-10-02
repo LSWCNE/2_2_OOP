@@ -7,4 +7,9 @@ class Bar(ABC):
     def instance_method(self):
         pass
     
-obj = Bar()
+class MyClass(Bar):
+    def instance_method(self):
+        print("MyClass : instance_method")
+        
+obj = MyClass()
+obj.instance_method()
