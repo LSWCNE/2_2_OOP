@@ -1,0 +1,4 @@
+{
+    "python.laguageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "standard"
+}
